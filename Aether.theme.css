@@ -1,0 +1,145 @@
+/**
+ * @name AetherLabs
+ * @description Restez à l'aise tout en parlant à vos amis
+ * @author Zhaak
+ * @invite JrU8g2Jfuh
+ * @donate https://ko-fi.com/zhaak
+ * @version 1.0.3
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Whitney:wght@300&display=swap'); /* Importer une police */
+
+:root {
+    --background-primary: #1e1e21;
+    --background-secondary: #18181b;
+    --background-secondary-alt: #18181b;
+    --background-tertiary: #1e1e21;
+    --background-accent: #4c97ff;
+    --modal-background: #1e1e21;
+    --background-mobile-primary: #1e1e21;
+    --background-mobile-secondary: #1e1e21;
+    --channeltextarea-background: #262629;
+    --background-message-hover: transparent;
+    --background-modifier-hover: #00000010;
+    --background-modifier-active: #0000001a;
+    --background-modifier-selected: #0000001f;
+    --deprecated-card-bg: #12141f63;
+    --background-floating: #18181b;
+    --deprecated-quickswitcher-input-background: #18181b;
+    --elevation-low: none;
+    --scrollbar-auto-thumb: #2c2c30;
+    --scrollbar-auto-track: #18181b;
+    --scrollbar-thin-thumb: #2c2c30;
+    --activity-card-background: #18181b;
+    --input-background: #1e1e21;
+    --disable-animations: 2s channel-unread infinite;
+    --user-buttons-color: #4c97ff;
+    --colored-emoji: grayscale(0%);
+    --mention-color: #f04747;
+    --unread-color: #7289da;
+    --mention-color-bar: #c66262;
+    --mention-color-background: #c662621f;
+    --mention-color-hover: #c6626226;
+    --chat-buttons: #7289da;
+    --online: #00d498;
+    --iddle: #ffae4f;
+    --dnd: #ff4f4f;
+    --offline: #747f8d;
+    --streaming: #593695;
+    --discord-logo: none;
+    --text-primary: #fafaf9; /* Texte principal */
+    --text-secondary: #abb0cf; /* Texte secondaire */
+
+  
+}
+
+/* === Style général === */
+body {
+    background-color: var(--background-primary); /* Couleur de fond globale */
+    color: var(--text-primary); /* Couleur du texte principal */
+}
+
+/* === Styles spécifiques === */
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--background-secondary); /* Fond de la barre latérale */
+}
+.sidebar-header {
+    background-color: var(--background-secondary-alt); /* Fond de l'en-tête */
+}
+
+/* Chat */
+.chat {
+    background-color: var(--background-secondary); /* Fond des messages */
+    color: var(--text-primary);
+    border-radius: 10px; /* Coins arrondis */
+}
+
+/* Liens */
+a {
+    color: #4c97ff;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #4c97ff1a; /* Fond léger au survol */
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out; /* Effet de transition */
+}
+
+/* Mentions */
+.mention {
+    color: #4c97ff!important; /* Couleur du texte des mentions */
+    background-color: #4c97ff1a !important; /* Fond des mentions */
+    border-radius: 5px;
+}
+.mentionWrapper-1Z5I5_ {
+    color: #4c97ff !important; /* Couleur pour @mentions */
+}
+.messageListItem-1VeD6V.mentioned-YnNc4- {
+    background-color: #4c97ff1a !important; /* Fond des messages mentionnés */
+    border-left: 4px solid #4c97ff !important; /* Barre gauche colorée */
+    border-radius: 5px;
+}
+
+/* === Section : réponses aux messages === */
+/* 
+   Pour modifier la couleur de fond et la barre jaune des réponses :
+   - `background-color` : Couleur de fond.
+   - `border-left` : Couleur de la barre à gauche.
+*/
+.repliedMessage-3ZBZCl {
+    background-color: #241717e3 !important; /* Changez ici la couleur de fond */
+    border-left: 4px solid #4c97ff !important; /* Changez ici la couleur de la barre */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 4px; /* Espacement interne */
+}
+
+/* Effet au survol des réponses */
+.repliedMessage-3ZBZCl:hover {
+    background-color: #2b1a1ae3 !important; /* Fond au survol */
+    border-left: 4px solid #4c97ff !important; /* Barre au survol */
+}
+
+/* === Instructions ===
+1. Enregistrez ce fichier après modification.
+2. Rechargez le thème sur Discord ou redémarrez Discord.
+3. Si cela ne fonctionne toujours pas, vérifiez si `.repliedMessage-3ZBZCl` est toujours utilisé avec l'inspecteur d'éléments.
+*/
+.mentioned_d5deea {
+    background:#18181b9a;
+  }
+  
+  .mentioned_d5deea:before {
+    background: #4c97ff;
+  }
+
+  
+.container_a6d69a {
+    background:#1e1e21;
+  }
+
+
+.mentioned_d5deea:hover {
+    background-color:#18181b !important;
+  }
