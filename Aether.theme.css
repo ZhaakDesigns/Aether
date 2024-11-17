@@ -10,10 +10,6 @@
  * @version 1.0.3
  */
 
- @import "https://ZhaakDesigns.github.io/Aether/Aether.css";
- @import url('https://ZhaakDesigns.github.io/Aether/Aether.css');
-
-
  @import url('https://fonts.googleapis.com/css2?family=Whitney:wght@300&display=swap'); /* Importer une police */
 
 :root {
