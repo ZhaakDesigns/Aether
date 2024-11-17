@@ -1,7 +1,7 @@
-<img align="right" src="https://github.com/ZhaakDesigns/Aether/assets/screenshot.png" alt="Preview" width="25%">
+<img align="right" src="https://i.imgur.com/Txh0y8z.png" alt="Preview" width="25%">
 
 <div align="left">
-  <img align="left" src="https://i.imgur.com/dIZlVDb.png" alt="Logo" width="120" height="70">
+  <img align="left" src="https://i.imgur.com/dIZlVDb.png" alt="Logo" width="70" height="70">
 
   <h3 align="left">Aether</h3>
   <p align="left">A sleek, modern Discord theme.</p>
