@@ -1,5 +1,5 @@
 /**
- * @name AetherLabs
+ * @name TEST ZHAAK
  * @description Clean style with rounded enhancements inspired by a modern interface.
  * @author Zhaak
  * @version 2.1.0
@@ -12,25 +12,25 @@
 
 
  :root {
-     --background-primary: #262629; /* Fond principal */
-     --background-secondary: #1e1e21; /* Fond secondaire */
-     --background-secondary-alt: #1e1e21; /* Fond alternatif */
-     --background-tertiary: #18181b; /* Fond tertiaire */
-     --background-accent: #25D666; /* Accent violet */
-     --modal-background: #1e1e21; /* Modaux */
-     --scrollbar-auto-thumb: #2c2c30;
-     --scrollbar-auto-track: #18181b;
-     --scrollbar-thin-thumb: #2c2c30;
-     --background-message-hover: #1e1e21; /* Survol des messages */
-     --forum-background: #1e1e21; /* Fond des salons forum */
-     --input-background: #1e1e21; /* Fond des champs texte */
-     --text-primary: #ffffff; /* Texte principal */
-     --text-secondary: #a9adc1; /* Texte secondaire */
-     --color: #25D666 !important; /* Couleur pour @mentions */
-     --mention-color: #25D666; /* Couleur des mentions */
-     --mention-background: #25d66633; /* Fond des mentions (semi-transparent) */
-     --button-primary: #25D666; /* Couleur des boutons principaux */
-     --button-hover: #25D666; /* Survol des boutons */
+     --background-primary: #1e1e2e; /* Fond principal */
+     --background-secondary: #181825; /* Fond secondaire */
+     --background-secondary-alt: #151520; /* Fond alternatif */
+     --background-tertiary: #11111b; /* Fond tertiaire */
+     --background-accent: #cba6f7; /* Accent violet */
+     --modal-background: #11111b; /* Modaux */
+     --scrollbar-auto-thumb: #7f849c;
+     --scrollbar-auto-track: #313244;
+     --scrollbar-thin-thumb: #7f849c;
+     --background-message-hover: #cba6f713; /* Survol des messages */
+     --forum-background: #11111b; /* Fond des salons forum */
+     --input-background: #314fe311; /* Fond des champs texte */
+     --text-primary: #fafafa; /* Texte principal */
+     --text-secondary: #b7b6be; /* Texte secondaire */
+     --color: #cba6f7 !important; /* Couleur pour @mentions */
+     --mention-color: #cba6f7; /* Couleur des mentions */
+     --mention-background: #cba6f749; /* Fond des mentions (semi-transparent) */
+     --button-primary: #313244; /* Couleur des boutons principaux */
+     --button-hover: #313244; /* Survol des boutons */
  }
  
  /* === Police générale === */
@@ -92,7 +92,7 @@
  /* === Boutons === */
  button {
      background-color: var(--button-primary);
-     color: #fff;
+     color: #30e475;
      border-radius: 8px; /* Arrondi des boutons */
      padding: 8px 12px;
      font-weight: 500;
@@ -106,16 +106,16 @@
  
 /* Mentions */
 .mention {
-    color: #25D666!important; /* Couleur du texte des mentions */
-    background-color: #25d66633 !important; /* Fond des mentions */
+    color: #cba6f7!important; /* Couleur du texte des mentions */
+    background-color: #cba6f713 !important; /* Fond des mentions */
     border-radius: 5px;
 }
 .mentionWrapper-1Z5I5_ {
-    color: #25D666 !important; /* Couleur pour @mentions */
+    color: #cba6f7 !important; /* Couleur pour @mentions */
 }
 .messageListItem-1VeD6V.mentioned-YnNc4- {
-    background-color: #1e1e21 !important; /* Fond des messages mentionnés */
-    border-left: 4px solid #25D666 !important; /* Barre gauche colorée */
+    background-color: #cba6f713!important; /* Fond des messages mentionnés */
+    border-left: 4px solid #cba6f7 !important; /* Barre gauche colorée */
     border-radius: 5px;
 }
 
@@ -126,16 +126,16 @@
    - `border-left` : Couleur de la barre à gauche.
 */
 .repliedMessage-3ZBZCl {
-    background-color: #1e1e21 !important; /* Changez ici la couleur de fond */
-    border-left: 4px solid #25D666 !important; /* Changez ici la couleur de la barre */
+    background-color: #cba6f713 !important; /* Changez ici la couleur de fond */
+    border-left: 4px solid #cba6f7 !important; /* Changez ici la couleur de la barre */
     border-radius: 5px; /* Coins arrondis */
     padding: 4px; /* Espacement interne */
 }
 
 /* Effet au survol des réponses */
 .repliedMessage-3ZBZCl:hover {
-    background-color: #1e1e21 !important; /* Fond au survol */
-    border-left: 4px solid #25D666 !important; /* Barre au survol */
+    background-color: #cba6f71a !important; /* Fond au survol */
+    border-left: 4px solid #cba6f7 !important; /* Barre au survol */
 }
  
  /* === Barre de recherche === */
@@ -158,15 +158,15 @@
      transition: box-shadow 0.3s ease-in-out, transform 0.3s ease;
  }
  .avatar:hover {
-    border: 2px solid #25D666;
+    border: 2px solid #cba6f7;
     animation: pulse 1s infinite;
 }
 @keyframes pulse {
     0%, 100% {
-        box-shadow: 0 0 10px #25D666;
+        box-shadow: 0 0 10px #cba6f7;
     }
     50% {
-        box-shadow: 0 0 20px #25D666;
+        box-shadow: 0 0 20px #cba6f7;
     }
 }
  
@@ -194,11 +194,11 @@
 
 /* Liens */
 a {
-    color: #25D666;
+    color: #cba6f7;
     text-decoration: none;
 }
 a:hover {
-    background-color: #1e1e211f; /* Fond léger au survol */
+    background-color: #cba6f71a; /* Fond léger au survol */
     border-radius: 5px;
     transition: background-color 0.2s ease-in-out; /* Effet de transition */
 }
@@ -209,36 +209,36 @@ a:hover {
 3. Si cela ne fonctionne toujours pas, vérifiez si `.repliedMessage-3ZBZCl` est toujours utilisé avec l'inspecteur d'éléments.
 */
 .mentioned_d5deea {
-    background: #1e1e21;
+    background: #cba6f713;
   }
   
   .mentioned_d5deea:before {
-    background: #25D666;
+    background: #cba6f7;
   }
 
   
 .container_a6d69a {
-    background:#18181B;
+    background:#11111b;
   }
 
 
 .mentioned_d5deea:hover {
-    background-color:#25d66633 !important;
+    background-color:#cba6f71a !important;
   }
 
 /* Modifier la barre d'indicateur lorsqu'un serveur est sélectionné */
 .listItem-2P_4kh.selected-3s45Ha::before {
-    background-color: #25D666 !important;
+    background-color: #cba6f7 !important;
 }
 
 /* Alternativement, si les classes changent dynamiquement, essayez un attribut plus générique */
 .guildsWrapper-5TJh6A .selected-3s45Ha::before {
-    background-color: #25D666 !important;
+    background-color: #cba6f7 !important;
 }
 
 /* Ajuster aussi les effets de survol ou les bordures si besoin */
 .listItem-2P_4kh.selected-3s45Ha {
-    border-left: 4px solid #25D666 !important; /* Exemple : ajouter une bordure sur la gauche */
+    border-left: 4px solid #cba6f7 !important; /* Exemple : ajouter une bordure sur la gauche */
 }
 
 /* === Animations === */
@@ -254,4 +254,38 @@ a:hover {
 }
 .chat {
     animation: slideIn 0.4s ease-out;
+}
+
+.channelTextArea_a7d72e {
+    background:#181825 !important;
+}
+.theme-dark .scrollableContainer_bdf0de.themedBackground_bdf0de, 
+.theme-dark .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85, 
+.theme-light .scrollableContainer_bdf0de.themedBackground_bdf0de, 
+.theme-light .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
+    background:#181825 !important;
+}
+
+/* messages anim */
+
+@keyframes msganim {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.message-2CShn3 {
+  animation: msganim 0.4s ease;
+}
+
+.selected_f6f816 {
+    background: #cba6f713 !important;
+}
+
+.subtitleContainer_a7d72e {
+    background:#1e1e2e !important;
 }

@@ -23,5 +23,5 @@
 <div align="left">
     <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="BetterDiscord" width="45" height="45">
     <b><p align="left">BetterDiscord</b>
-    <br/>Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://betterdiscord.app/theme/Discolored">here</a></p>
+    <br/>Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://betterdiscord.app/theme/Aether">here</a></p>
 </div>
